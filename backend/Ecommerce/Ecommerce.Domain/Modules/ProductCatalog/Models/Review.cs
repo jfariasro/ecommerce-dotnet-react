@@ -14,4 +14,6 @@ public class Review : BaseEntity
     public string? Comment { get; set; }
 
     public int ProductId { get; set; }
+
+    public virtual Product? Product { get; set; }
 }

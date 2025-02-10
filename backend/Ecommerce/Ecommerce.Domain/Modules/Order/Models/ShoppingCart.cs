@@ -6,5 +6,5 @@ public class ShoppingCart : BaseEntity
 {
     public Guid? ShoppingCartMasterId { get; set; }
 
-    public virtual ICollection<ShoppingCartItem>? Items { get; set; }
+    public virtual ICollection<ShoppingCartItem>? ShoppingCartItems { get; set; }
 }

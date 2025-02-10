@@ -25,4 +25,10 @@ public class Product : BaseEntity
     public ProductStatus ProductStatus { get; set; } = ProductStatus.Active;
 
     public int CategoryId { get; set; }
+
+    public virtual Category? Category { get; set; }
+
+    public virtual ICollection<Review>? Reviews { get; set; }
+
+    public virtual ICollection<ProductImage>? ProductImages { get; set; }
 }
