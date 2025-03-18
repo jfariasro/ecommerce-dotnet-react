@@ -13,3 +13,6 @@ C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\obj\Debug
 C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\obj\Debug\net8.0\refint\Ecommerce.Application.dll
 C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.pdb
 C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\obj\Debug\net8.0\ref\Ecommerce.Application.dll
+C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Application.runtimeconfig.json
+C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.sourcelink.json
+C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.genruntimeconfig.cache

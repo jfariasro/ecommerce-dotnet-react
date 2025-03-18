@@ -24,5 +24,5 @@ public class ShoppingCartItem : BaseEntity
 
     public int ShoppingCartId { get; set; }
 
-    public virtual ShoppingCart ShoppingCart { get; set; }
+    public virtual ShoppingCart? ShoppingCart { get; set; }
 }

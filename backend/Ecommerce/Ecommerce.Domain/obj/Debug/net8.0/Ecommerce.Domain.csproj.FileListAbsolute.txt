@@ -9,3 +9,5 @@ C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Domain\obj\Debug\net8
 C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\refint\Ecommerce.Domain.dll
 C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.pdb
 C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\ref\Ecommerce.Domain.dll
+C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\Ruben\Music\ECOMMERCE\backend\Ecommerce\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.sourcelink.json
