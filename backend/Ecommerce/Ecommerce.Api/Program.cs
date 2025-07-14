@@ -1,4 +1,5 @@
 using Ecommerce.Domain.Modules.Auth.Models;
+using Ecommerce.Infrastructure;
 using Ecommerce.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -11,6 +12,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 builder.Services.AddDbContext<EcommerceDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"),
