@@ -10,7 +10,7 @@ public class Review : BaseEntity
 
     public int Rating { get; set; }
 
-    [Column(TypeName = "NVARCHAR(5000)")]
+    [Column(TypeName = "NVARCHAR(4000)")]
     public string? Comment { get; set; }
 
     public int ProductId { get; set; }

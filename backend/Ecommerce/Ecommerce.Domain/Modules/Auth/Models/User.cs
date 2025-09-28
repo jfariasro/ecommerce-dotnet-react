@@ -12,5 +12,5 @@ public class User : IdentityUser
 
     public string? ImageUrl { get; set; }
 
-    public bool IsActive { get; set; }
+    public bool IsActive { get; set; } = true;
 }

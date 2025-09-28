@@ -5,7 +5,7 @@ namespace Ecommerce.Domain.Modules.ProductCatalog.Models;
 
 public class ProductImage : BaseEntity
 {
-    [Column(TypeName = "NVARCHAR(5000)")]
+    [Column(TypeName = "NVARCHAR(4000)")]
     public string? Url { get; set; }
 
     public int ProductId { get; set; }

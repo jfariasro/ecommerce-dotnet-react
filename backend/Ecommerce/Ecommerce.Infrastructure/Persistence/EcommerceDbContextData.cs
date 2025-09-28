@@ -58,7 +58,7 @@ public class EcommerceDbContextData
 
             if (!context.Categories.Any())
             {
-                var categoryData = File.ReadAllText("../Infrastructure/Data/category.json");
+                var categoryData = File.ReadAllText("../Ecommerce.Infrastructure/Data/category.json");
                 var categories = JsonConvert.DeserializeObject<List<Category>>(categoryData);
                 if (categories is not null)
                 {
@@ -69,7 +69,7 @@ public class EcommerceDbContextData
 
             if (!context.Products.Any())
             {
-                var productData = File.ReadAllText("../Infrastructure/Data/product.json");
+                var productData = File.ReadAllText("../Ecommerce.Infrastructure/Data/product.json");
                 var products = JsonConvert.DeserializeObject<List<Product>>(productData);
                 if (products is not null)
                 {
@@ -80,7 +80,7 @@ public class EcommerceDbContextData
 
             if (!context.ProductImages.Any())
             {
-                var productImageData = File.ReadAllText("../Infrastructure/Data/image.json");
+                var productImageData = File.ReadAllText("../Ecommerce.Infrastructure/Data/image.json");
                 var productImages = JsonConvert.DeserializeObject<List<ProductImage>>(productImageData);
                 if (productImages is not null)
                 {
@@ -91,7 +91,7 @@ public class EcommerceDbContextData
 
             if (!context.Country.Any())
             {
-                var countryData = File.ReadAllText("../Infrastructure/Data/countries.json");
+                var countryData = File.ReadAllText("../Ecommerce.Infrastructure/Data/countries.json");
                 var countries = JsonConvert.DeserializeObject<List<Country>>(countryData);
                 if (countries is not null)
                 {
@@ -102,7 +102,7 @@ public class EcommerceDbContextData
 
             if (!context.Reviews.Any())
             {
-                var reviewData = File.ReadAllText("../Infrastructure/Data/review.json");
+                var reviewData = File.ReadAllText("../Ecommerce.Infrastructure/Data/review.json");
                 var reviews = JsonConvert.DeserializeObject<List<Review>>(reviewData);
                 if (reviews is not null)
                 {

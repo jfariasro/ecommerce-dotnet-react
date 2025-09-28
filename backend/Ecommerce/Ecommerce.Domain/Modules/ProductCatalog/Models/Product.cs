@@ -9,7 +9,7 @@ public class Product : BaseEntity
     [Column(TypeName = "NVARCHAR(100)")]
     public string? Name { get; set; }
 
-    [Column(TypeName = "NVARCHAR(5000)")]
+    [Column(TypeName = "NVARCHAR(4000)")]
     public string? Description { get; set; }
 
     [Column(TypeName = "DECIMAL(10,2)")]
